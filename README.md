@@ -59,7 +59,7 @@ Follow next steps to know how to run the App ☺.
    git clone https://github.com/MohanedMohamedKhalil/Employees-App
    ```
 
-2. move to client-side folder and open cmd or visual-studio terminal .
+2. then open terminal or cmd .
 
    ```js
     npm install
