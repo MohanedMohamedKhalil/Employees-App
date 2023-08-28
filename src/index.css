@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sidebar {
+    max-width: 106px;
+    /* padding: 72.5px 0 761px; */
+    padding: 60px 0;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-image: linear-gradient(to bottom, #39a4dc, #2763ab);
+  }
+  .employee-card {
+    width: 401px;
+    padding: 11px 13px 11.8px 18.9px;
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.09);
+    border: solid 1px #eaeef0;
+    background-color: white;
+  }
+  .dialogContent input {
+    @apply focus:ring-2 focus:ring-[#CBC8CB] focus:outline-none;
+  }
+  .styleInput {
+    @apply rounded-md border border-[#CBC8CB] text-[#8f9da9] text-sm font-roboto px-2 py-1;
+  }
+  .info {
+    position: absolute;
+    width: 237px;
+    height: 80.7px;
+    right: -35px;
+    bottom: -88px;
+    z-index: 50;
+    padding: 16.7px 21px 3px 5.6px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 1px #eaeef0;
+    background-color: white;
+  }
+  .active {
+    @apply bg-[#2765ac]  border-[#59c203] border-l-[3px];
+  }
+  .arrow {
+    content: "";
+    border-width: 12px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+    position: absolute;
+    right: 32.5px;
+    top: -25px;
+    z-index: -1;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1px, 1fr));
+    max-width: 100%;
+  }
+}
