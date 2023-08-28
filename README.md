@@ -1,9 +1,6 @@
 <br />
 <div align="center">
   <h1 align="center">Employees App</h1>
-  <p align="center">
-  <img src="./chatIcon.png" style="width:150px">
-   </p>
 </div>
 
 <details>
